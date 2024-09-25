@@ -98,7 +98,7 @@
 
   .div-colums{
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
     height: 250px;
   }
 
@@ -111,6 +111,15 @@
     width: 60%;
     background-color: blue;
   }
+
+  .top-small{
+    width: 60%;
+  }
+  .top-big{
+    width: 40%;
+  }
+
+
 
   .title-div{
     text-align: center;
