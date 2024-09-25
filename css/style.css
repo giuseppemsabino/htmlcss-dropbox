@@ -15,11 +15,32 @@
     max-width: 100%;
   }
 
+  .btn{
+    border: 0;
+    padding: 5px 10px;
+  }
+
+  .blue-btn{
+    background-color: #0061ff;
+    color: rgba(252, 252, 252, 0.885);
+  }
+  .blue-btn:hover{
+    background-color: #5492f5;
+  }
+
+  .accedi-top{
+    background-color: transparent;
+  }
+  .accedi-top:hover{
+    background-color: lightgrey;
+  }
+
   .header-container{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color: gray;
+    background-color: white;
+    border: 1px dashed black;
     width: 100%;
     height: 50px;
     padding: 0 20px;
@@ -28,6 +49,28 @@
   .left-header{
     width: 50%;
     align-items: center;
+    display: flex;
+    border: 1px dashed black;
+   
+    
+  }
+
+  .list-header{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    align-items: center;
+    height: 100%;
+  
+  }
+
+  .item-list-header{
+   margin: 0 15px; 
+  }
+
+  .item-list-header > a{
+    text-decoration: none;
+    color: black;
   }
 
   .right-header{
