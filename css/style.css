@@ -10,6 +10,10 @@ img{
   width: 100%;
 }
 
+ul{
+ list-style: none;
+}
+
 /* # UTILS */
 
 .container {
@@ -179,7 +183,11 @@ border: none;
 .card-header{
   border-bottom: 2px solid black;
   text-align: center;
-  padding: 5px;
+  padding: 0.5rem;
+}
+
+.card-content{
+  padding: 0.5rem;
 }
 
  
