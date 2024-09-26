@@ -49,7 +49,7 @@ ul{
   flex-direction: row;
   justify-content: space-between;
   background-color: white;
-  border: 1px dashed black;
+  /* border: 1px dashed black; */
   width: 100%;
   height: 50px;
   padding: 0 20px;
@@ -59,7 +59,7 @@ ul{
   width: 50%;
   align-items: center;
   display: flex;
-  border: 1px dashed black;
+  /* border: 1px dashed black; */
 }
 
 .list-header {
@@ -115,14 +115,14 @@ ul{
   width: 40%;
   background-color: transparent;
   min-height: 50px;
-  border: 1px dashed black;
+  /* border: 1px dashed black; */
 }
 
 .col-big {
   width: 60%;
   background-color: transparent;
   min-height: 50px;
-  border: 1px dashed black;
+  /* border: 1px dashed black; */
 }
 
 .top-small {
@@ -281,20 +281,23 @@ border: none;
 .title-info{
   padding: 20px;
 }
-.info-card *{
+.card-list .info-card *{
   padding: 10px;
+}
+.card-list .info-card{
+  border: none;
 }
 
 /* market section */
 
-.title-div{
+.title-market{
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   padding: 100px;
 }
 
-.title-div *{
+.title-market *{
   margin: 20px 0;
 }
 
