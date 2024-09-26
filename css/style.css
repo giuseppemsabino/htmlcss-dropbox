@@ -216,6 +216,29 @@ border: none;
   color: blue;
 }
 
+.card .div-colums{
+  height: 300px;
+  padding: 35px;
+}
+.card .col-big{
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  width: 30%;
+}
+
+.col-big .blue-btn{
+  padding: 10px 40px;
+  border: none;
+}
+
+.card .col-small{
+  display: flex;
+  flex-direction: column;
+ justify-content:space-between ;
+ width: 70%;
+}
+
 
 
  
