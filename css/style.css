@@ -179,7 +179,7 @@ border: none;
 .fa-regular{
   margin: 10px;
 }
-
+/* card */
 .card-header{
   border-bottom: 2px solid black;
   text-align: center;
@@ -188,7 +188,25 @@ border: none;
 
 .card-content{
   padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
 }
+
+.card-content h5 {
+ color: rgb(120, 120, 120);
+}
+.card-content .blue-btn{
+  padding: 5px;
+  margin: 5px 26px;
+}
+.card-content ul{
+  padding: 25px 0;
+  font-weight: ;
+}
+.card-content li{
+  padding: 5px 0;
+}
+
 
  
 .container > .card-list {
@@ -201,7 +219,7 @@ border: none;
 
 .card-list .card {
   flex: 1 0 30%;
-  background-color: gray;
+  background-color: transparent;
   min-height: 300px;
   border: 2px solid black;
 
