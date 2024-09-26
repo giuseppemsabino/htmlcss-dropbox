@@ -81,15 +81,14 @@ img{
   align-items: center;
 }
 
+/* top section */
+
 .top-section {
   background-color: #b4d0e7;
   display: flex;
 }
 
-.title-div {
-  position: relative;
-  cursor: pointer;
-}
+
 .big-title {
   width: 100%;
   background-color: transparent;
@@ -156,11 +155,39 @@ border: none;
   top: 65px;
 }
 
+/* service section */
+
+.service-section{
+  margin-top: 100px;
+}
+
+.service-section h1{
+  font-size: 2rem;
+  padding: 20px 0 ;
+}
+
+.checked {
+  color: white;
+  border: 2px solid black;
+  border-radius: 50%;
+  background-color: #0061ff;
+}
+.fa-regular{
+  margin: 10px;
+}
+
+.card-header{
+  border-bottom: 2px solid black;
+  text-align: center;
+  padding: 5px;
+}
+
+ 
 .container > .card-list {
   display: flex;
   flex-wrap: wrap;
-  align-content: center;
-  justify-content: center;
+  align-content: flex-start;
+  justify-content: flex-start;
   gap: 2rem;
 }
 
@@ -168,6 +195,8 @@ border: none;
   flex: 1 0 30%;
   background-color: gray;
   min-height: 300px;
+  border: 2px solid black;
+
 }
 
 .client-spam-section {
