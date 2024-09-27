@@ -325,11 +325,22 @@ border: none;
 .client-logo {
   width: 50%;
   height: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
 }
 
 .designit {
   background-color: #a2d39b;
+  
 }
+
+.client-logo svg{
+  fill: white;
+  width: 50%;
+}
+
 .asu {
   background-color: #61082b;
 }
