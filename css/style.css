@@ -401,6 +401,32 @@ border: none;
   padding: 5px 40px;
 }
 
+
+/* comun questions */
+
+.comun-quest{
+  padding: 70px 0;
+}
+
+.comun-quest h2{
+  margin: 0 0 40px 0;
+  font-size: 2rem;
+}
+
+.comun-quest *{
+  margin: 15px 0;
+}
+.quest-item{
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+
+.comun-quest p{
+  font-weight: bolder;
+}
+
 footer {
   background-color: black;
   height: 500px;
