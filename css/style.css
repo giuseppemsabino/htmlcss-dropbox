@@ -383,6 +383,22 @@ border: none;
 .free-trail{
   background-color: #b4d0e7;
   height: 300px;
+  align-content: center;
+}
+
+.container .colums-free{
+  display: flex;
+  justify-content: center;
+ 
+}
+
+.colums-free .col-small{
+  display: flex;
+  justify-content: center;
+}
+
+.colums-free .col-small .btn{
+  padding: 5px 40px;
 }
 
 footer {
