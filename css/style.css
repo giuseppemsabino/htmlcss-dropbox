@@ -312,6 +312,7 @@ border: none;
   justify-content: space-between;
 }
 
+/* client section */
 .client-memo {
   width: 100%;
 }
@@ -336,9 +337,23 @@ border: none;
   
 }
 
+.client-memo{
+  background-color: #f5f5f5;
+}
 .client-logo svg{
   fill: white;
   width: 50%;
+}
+.center-memo{
+  padding: 20px;
+}
+.center-memo *{
+  margin: 30px 0;
+}
+
+.center-memo svg{
+  width: 70%;
+  
 }
 
 .asu {
@@ -361,6 +376,12 @@ border: none;
 }
 .clear {
   background-color: #ffd830;
+}
+
+/* free trail */
+
+.free-trail{
+  background-color: #b4d0e7;
 }
 
 footer {
